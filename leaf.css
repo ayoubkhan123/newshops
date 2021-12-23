@@ -512,10 +512,10 @@ nav{
     padding-top: 10px;
     text-align: center;
     background: white;
-    height: 50vh;
+    height: auto;
     width: 45%;
     border-radius: 5px;
-    padding-bottom: 10px;
+    padding-bottom: 15px;
 } 
 .last input{
     width: 200px;
@@ -635,8 +635,8 @@ nav{
 .footer-nav li a{
     text-decoration: none;
     color: white;
-    font-size: 30px;
-    padding: 0px 20px;
+    font-size: 16px;
+    padding: 0px 5px;
 }
 .footer-nav li:hover{
     border-bottom: 3px solid rgb(241, 235, 235);
@@ -653,6 +653,7 @@ nav{
 .last11 h3{
     opacity: 0.7;
     padding: 10px 0px;
+    font-size: 18px;
 }
 
 .icons{
@@ -664,7 +665,6 @@ nav{
     align-items: center;
     font-size: 50px;
     padding-top: 30px;
-    /* padding-bottom: 120px; */
 }
 .icons i{
     border-radius: 50%;
@@ -739,6 +739,7 @@ nav{
     }
     .last{
         background: goldenrod;
+        
         /* width: 50%; */
     }
 
@@ -782,6 +783,28 @@ nav{
         text-align: center;
         z-index: 1;
     }
+    .fa-home:before {
+        content: "\f015";
+        display: none;
+    }
+    .fa-servicestack:before {
+        content: "\f3ec";
+        display: none;
+    }
+    .fa-address-card:before {
+        content: "\f2bb";
+        display: none;
+    }
+    .fa-pinterest:before {
+        content: "\f0d2";
+        display: none;
+    }
+    .fa-user-secret:before {
+        content: "\f21b";
+        display: none;
+    }
+
+   
      ul{
         display: block;
         position: absolute;
@@ -889,9 +912,11 @@ nav{
     .footer-nav li{
         padding: 10px;
         font-size: 10px;
+
     }
     .footer-nav li a{
         font-size: 20px;
+        text-decoration: dashed;
     }
     .text{
         text-align: center;
